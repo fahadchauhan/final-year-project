@@ -1,2 +1,9 @@
-# final-year-project
-object detection via android app
+# final-year-project - IntelliEye
+
+The project aimed to create an intelligent assistive technology called IntelliEye that supports visually impaired individuals by using real-time image analysis and providing audio-based guidance. The core problem was to enable the identification and interpretation of objects, facial recognition, and dynamic scene description to aid individuals in navigating their surroundings with ease and confidence.
+
+To address the problem, the solution integrated multiple technologies, including object detection, image captioning, and facial recognition. Object detection was performed using a pre-trained TensorFlow model to identify objects in the camera's field of view. For image captioning, a Residual Network (ResNet) was used as the encoder to extract image features, while an attention mechanism was employed in the decoder to generate detailed descriptions of the scene. Additionally, facial recognition was implemented to identify and remember known individuals. The audio feedback system used these image captions and object recognition results to guide the user through verbal instructions, enhancing their awareness of the surrounding environment.
+
+The outcome of the project successfully demonstrated that IntelliEye could provide a comprehensive real-time analysis of the user's environment, recognize familiar faces, and deliver accurate scene descriptions. The system achieved effective object detection and scene interpretation, ensuring a reliable support tool for the visually impaired. The project's success in blending machine learning with assistive technology has opened possibilities for future enhancements in accessibility solutions.
+
+Skills and technologies used in this project included machine learning, deep learning, TensorFlow, Keras, Android development, image processing, computer vision techniques, object detection algorithms, attention mechanisms for image captioning, and audio-based feedback systems. The use of Python for model training and Java for Android integration facilitated a robust and efficient implementation of the IntelliEye solution. 
